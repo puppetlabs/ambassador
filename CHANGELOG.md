@@ -79,6 +79,7 @@ We're pleased to introduce Emissary 2.0.1 as a developer preview. The 2.X family
 
 - Feature: The optional `statsPrefix` element of the `AmbassadorListener` CRD now determines the prefix of HTTP statistics emitted for a specific `AmbassadorListener`.
 - Feature: Ambassador Agent reports sidecar process information and Mapping OpenAPI documentation to Ambassador Cloud to provide more visibility into services and clusters.
+- Bugfix: Headers added or removed as part of `Mapping`s in a canary configuration will no longer clobber each other.
 
 ## [2.0.0-ea] June 24, 2021
 [2.0.0-ea]: https://github.com/emissary-ingress/emissary/compare/v1.13.8...v2.0.0-ea
